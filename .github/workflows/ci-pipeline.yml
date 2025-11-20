@@ -16,7 +16,7 @@ jobs:
         uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-  test:
+ test:
     runs-on: ubuntu-latest
     name: Setup, test, and build project
     env:
